@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "try": "node index.js"
+    "try": "node index.js",
+    "try-and-watch": "while sleep 10; do npm run try; done"
   },
   "author": "Brian Novillo",
   "license": "GNU",

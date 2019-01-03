@@ -1,6 +1,4 @@
 ```
 npm run install
-npm run try-and-watch
+npm run try
 ```
-
-try-and-watch run a test every second

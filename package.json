@@ -1,17 +1,15 @@
 {
-  "name": "body-tester",
+  "name": "mobile-detect-tester",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "try": "node index.js",
-    "try-and-watch": "while sleep 1; do npm run try; done"
+    "try": "node index.js"
   },
   "author": "Brian Novillo",
   "license": "GNU",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
-    "node-fetch": "^2.3.0"
+    "mobile-detect": "~1.4.2"
   }
 }

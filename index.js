@@ -15,7 +15,7 @@ const devices = [
     {type: "desktop", text: "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:15.0) Gecko/20100101 Firefox/15.0.1"},
 ];
 
-const randomNumber = Math.floor(Math.random() * devices.length+1);
+const randomNumber = Math.floor(Math.random() * devices.length);
 const randomDevice = devices[randomNumber];
 
 const url = 'https://stg.tn.com.ar?'+Date.now();
